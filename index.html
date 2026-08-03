@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- DEMO: remove noindex when site goes live -->
+<meta name="robots" content="noindex">
+<title>Hometown Tire &amp; Auto Repair | Tires &amp; Honest Auto Repair — Plant City, FL</title>
+<meta name="description" content="Hometown Tire &amp; Auto Repair in downtown Plant City, FL — tires &amp; wheels, rotations &amp; balancing, oil changes, and honest general repair. Straight answers, quick turnaround, fair treatment. 4.5 stars from 140 Google reviews. Call (813) 652-8093.">
+<meta name="author" content="Hometown Tire &amp; Auto Repair">
+<meta name="theme-color" content="#16303f">
+
+<!-- Open Graph / social preview -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Hometown Tire &amp; Auto Repair — Plant City, FL">
+<meta property="og:description" content="Downtown Plant City's neighborhood tire &amp; auto shop. Tires &amp; wheels, rotations, oil changes and honest general repair — quick turnaround and a fair price. 4.5★ from 140 Google reviews.">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://wilsonramstead.github.io/hometown-tire-auto/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1684864115730-96da635ba86e?w=1200&amp;q=70&amp;auto=format&amp;fit=crop">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hometown Tire &amp; Auto Repair — Plant City, FL">
+<meta name="twitter:description" content="Tires &amp; wheels, rotations &amp; balancing, oil changes and honest general repair in downtown Plant City. 4.5★ · 140 Google reviews. Call (813) 652-8093.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1684864115730-96da635ba86e?w=1200&amp;q=70&amp;auto=format&amp;fit=crop">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- LocalBusiness structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TireShop",
+  "name": "Hometown Tire & Auto Repair",
+  "description": "Neighborhood tire and auto repair shop in downtown Plant City, Florida. Tires and wheels, tire rotations and balancing, oil changes, and honest general auto repair. Known for straight answers, quick turnaround, and fair prices.",
+  "image": "https://images.unsplash.com/photo-1684864115730-96da635ba86e?w=1200&q=70&auto=format&fit=crop",
+  "telephone": "+1-813-652-8093",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "203 E Baker St",
+    "addressLocality": "Plant City",
+    "addressRegion": "FL",
+    "postalCode": "33563",
+    "addressCountry": "US"
+  },
+  "areaServed": ["Plant City, FL", "Hillsborough County, FL"],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "140"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Khyla Jo"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "They got me in in a timely manner, didn't try to sell me a bunch of things that didn't need done, got my service done super quickly, and above all else the price was great!"
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Brandon C."},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "This place was recommended to me by a friend and I made the trip from Winter Haven — it was worth the drive. The truck came back feeling brand new."
+    },
+    {
+      "@type": "Review",
+      "author": {"@type": "Person", "name": "Amanda Crisp"},
+      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+      "reviewBody": "Their customer service is absolutely top-notch. They are friendly, honest, and truly go above and beyond."
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --cream:#f6efdf;
+    --cream-2:#efe5cf;
+    --surface:#fffaef;
+    --ink:#241d17;
+    --muted:#6b5c4c;
+    --line:#e4d7bc;
+    --brick:#a6362b;
+    --brick-d:#87291f;
+    --brick-tint:#f4e3d9;
+    --denim:#2b5a7e;
+    --denim-d:#1e4159;
+    --denim-dd:#16303f;
+    --denim-line:#2f5069;
+    --gold:#d9982b;
+    --maxw:1140px;
+    --radius:14px;
+  }
+
+  *{box-sizing:border-box}
+  html,body{overflow-x:clip}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:"Karla",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    font-size:17px;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+  h1,h2,h3,h4{font-family:"Crete Round",Georgia,serif;font-weight:400;line-height:1.08;margin:0}
+  p{margin:0 0 1em}
+  a{color:inherit}
+  img{max-width:100%;display:block}
+
+  .wrap{max-width:var(--maxw);margin-inline:auto;padding-left:22px;padding-right:22px}
+
+  .eyebrow{
+    font-family:"Karla",sans-serif;font-weight:700;letter-spacing:.18em;
+    text-transform:uppercase;font-size:.74rem;color:var(--brick);
+    margin:0 0 .85rem;display:inline-flex;align-items:center;gap:.55rem;
+  }
+  .eyebrow::before{content:"";width:24px;height:3px;border-radius:3px;background:var(--brick);display:inline-block}
+  .eyebrow.on-dark{color:#e7b98a}
+  .eyebrow.on-dark::before{background:var(--gold)}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+    font-family:"Karla",sans-serif;font-weight:700;font-size:1rem;letter-spacing:.01em;
+    padding:.82rem 1.35rem;border-radius:10px;text-decoration:none;border:2px solid transparent;
+    cursor:pointer;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
+    white-space:nowrap;
+  }
+  .btn svg{width:18px;height:18px;flex:0 0 auto}
+  .btn-primary{background:var(--brick);color:#fff;box-shadow:0 8px 20px -8px rgba(166,54,43,.7)}
+  .btn-primary:hover{background:var(--brick-d);transform:translateY(-2px)}
+  .btn-denim{background:var(--denim);color:#fff}
+  .btn-denim:hover{background:var(--denim-d);transform:translateY(-2px)}
+  .btn-cream{background:var(--gold);color:#3a2a08}
+  .btn-cream:hover{background:#e8ad44;transform:translateY(-2px)}
+  .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+  .btn-ghost:hover{border-color:var(--brick);color:var(--brick);transform:translateY(-2px)}
+  .btn-ghost-light{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.34)}
+  .btn-ghost-light:hover{border-color:var(--gold);color:#fff;transform:translateY(-2px)}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--brick);outline-offset:3px;border-radius:10px}
+
+  /* ---------- Header ---------- */
+  header.site{
+    position:sticky;top:0;z-index:50;background:rgba(246,239,223,.92);
+    backdrop-filter:saturate(150%) blur(8px);border-bottom:1px solid var(--line);
+  }
+  .hrow{display:flex;align-items:center;gap:1rem;padding-top:.65rem;padding-bottom:.65rem;min-width:0}
+  .brand{display:flex;align-items:center;gap:.7rem;min-width:0;text-decoration:none;color:var(--ink)}
+  .brand .mark{
+    flex:0 0 auto;width:44px;height:44px;border-radius:11px;background:var(--denim-dd);
+    display:grid;place-items:center;position:relative;
+  }
+  .brand .mark::before{content:"";width:22px;height:22px;border-radius:50%;border:5px solid var(--gold);box-shadow:inset 0 0 0 3px var(--denim-dd)}
+  .brand .mark::after{content:"";position:absolute;width:5px;height:5px;border-radius:50%;background:var(--gold)}
+  .brand .bt{min-width:0}
+  .brand .name{font-family:"Crete Round",serif;font-weight:400;font-size:1.18rem;line-height:1.02;letter-spacing:.005em}
+  .brand .sub{font-size:.72rem;color:var(--muted);font-weight:600;letter-spacing:.04em;white-space:nowrap;text-transform:uppercase}
+  .hspacer{flex:1 1 auto}
+  .hrating{display:flex;align-items:center;gap:.4rem;font-size:.82rem;color:var(--muted);font-weight:500}
+  .hrating b{color:var(--ink);font-weight:700}
+  .hcall{flex:0 0 auto}
+
+  /* ---------- Hero ---------- */
+  .hero{position:relative;overflow:hidden;background:var(--denim-dd);color:#fff}
+  .hero .bg{position:absolute;inset:0;z-index:0}
+  .hero .bg img{width:100%;height:100%;object-fit:cover;opacity:.4}
+  .hero .bg::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(22,48,63,.62) 0%,rgba(22,48,63,.8) 52%,rgba(22,48,63,.96) 100%),
+    radial-gradient(120% 90% at 88% 8%,rgba(166,54,43,.4),transparent 62%)}
+  .hero .inner{position:relative;z-index:1;padding-top:62px;padding-bottom:72px}
+  .hbadge{
+    display:inline-flex;align-items:center;gap:.55rem;background:rgba(217,152,43,.16);
+    border:1px solid rgba(217,152,43,.5);color:#f0c073;font-family:"Karla",sans-serif;
+    font-weight:700;font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;
+    padding:.4rem .8rem;border-radius:999px;margin-bottom:1.3rem;
+  }
+  .hbadge .pin{width:8px;height:8px;border-radius:50%;background:var(--gold)}
+  .hero h1{font-family:"Crete Round",serif;font-size:clamp(2.3rem,7vw,4.15rem);letter-spacing:-.005em;margin-bottom:1rem;max-width:15ch}
+  .hero h1 .hl{color:#f0c073}
+  .hero .lead{font-size:1.14rem;color:#dfe6ea;max-width:52ch;margin-bottom:1.7rem}
+  .hero .cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-bottom:2rem}
+  .hero .ratingline{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem .9rem;color:#c6d2d9;font-size:.95rem}
+  .hero .ratingline b{color:#fff}
+  .hero .stars{color:var(--gold);letter-spacing:2px;font-size:1rem}
+
+  /* facts strip under hero */
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:-34px;position:relative;z-index:5}
+  .facts .f{background:var(--surface);padding-top:18px;padding-bottom:18px;padding-left:16px;padding-right:16px;min-width:0}
+  .facts .f .n{font-family:"Crete Round",serif;font-size:1.55rem;line-height:1.05;color:var(--brick)}
+  .facts .f .l{font-size:.82rem;color:var(--muted);margin-top:.3rem;font-weight:500}
+
+  /* ---------- Sections ---------- */
+  section{padding-top:66px;padding-bottom:66px}
+  .sec-head{max-width:60ch;margin-bottom:2.4rem}
+  .sec-head h2{font-size:clamp(1.9rem,4.6vw,2.75rem);letter-spacing:-.005em}
+  .sec-head p{color:var(--muted);font-size:1.06rem;margin-top:.7rem;margin-bottom:0}
+
+  /* services */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding-top:26px;padding-bottom:26px;padding-left:24px;padding-right:24px;min-width:0;
+    transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+  }
+  .card:hover{transform:translateY(-4px);box-shadow:0 16px 36px -22px rgba(30,65,89,.5);border-color:#d8c6a3}
+  .card .ic{width:48px;height:48px;border-radius:12px;background:var(--brick-tint);color:var(--brick);
+    display:grid;place-items:center;margin-bottom:16px}
+  .card .ic svg{width:25px;height:25px}
+  .card h3{font-size:1.32rem;margin-bottom:.4rem}
+  .card p{color:var(--muted);font-size:.98rem;margin:0}
+  .card.feature{background:linear-gradient(158deg,var(--denim) 0%,var(--denim-dd) 100%);border-color:transparent;color:#fff}
+  .card.feature .ic{background:rgba(255,255,255,.16);color:#fff}
+  .card.feature p{color:#dbe6ec}
+  .card.feature .tag{display:inline-block;background:var(--gold);color:#3a2a08;font-family:"Karla",sans-serif;
+    font-weight:700;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;padding:.24rem .55rem;border-radius:6px;margin-bottom:14px}
+
+  /* split spotlight */
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+  .split.rev .media{order:2}
+  .split .media{border-radius:var(--radius);overflow:hidden;position:relative;min-height:330px;box-shadow:0 20px 44px -26px rgba(30,65,89,.6)}
+  .split .media img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+  .split .media .stamp{position:absolute;left:16px;bottom:16px;z-index:2;background:var(--surface);border-radius:12px;
+    padding:10px 15px;box-shadow:0 12px 30px -14px rgba(30,65,89,.55);display:flex;align-items:center;gap:.55rem;font-weight:700;font-size:.9rem}
+  .split .media .stamp svg{width:20px;height:20px;color:var(--brick);flex:0 0 auto}
+  .split h2{font-size:clamp(1.7rem,4.3vw,2.5rem)}
+  .checklist{list-style:none;padding:0;margin:1.4rem 0 1.8rem}
+  .checklist li{display:flex;gap:.7rem;align-items:flex-start;padding-top:.42rem;padding-bottom:.42rem;font-size:1.03rem}
+  .checklist li svg{flex:0 0 auto;width:22px;height:22px;color:var(--brick);margin-top:3px}
+
+  /* trust band (denim) */
+  .band{background:var(--denim-dd);color:#fff}
+  .band .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+  .band .item{min-width:0}
+  .band .item .ic{width:46px;height:46px;border-radius:12px;background:rgba(217,152,43,.16);color:var(--gold);display:grid;place-items:center;margin-bottom:14px}
+  .band .item .ic svg{width:24px;height:24px}
+  .band .item h3{font-size:1.3rem;color:#fff;margin-bottom:.35rem}
+  .band .item p{color:#c2d0d8;font-size:.98rem;margin:0}
+
+  /* reviews */
+  .rev-top{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:2rem}
+  .rev-score{display:flex;align-items:center;gap:.9rem}
+  .rev-score .big{font-family:"Crete Round",serif;font-size:3rem;line-height:.9;color:var(--ink)}
+  .rev-score .stars{color:var(--gold);letter-spacing:2px;font-size:1.05rem}
+  .rev-score .meta{font-size:.9rem;color:var(--muted)}
+  .reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .review{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding-top:24px;padding-bottom:24px;padding-left:24px;padding-right:24px;min-width:0}
+  .review .stars{color:var(--gold);letter-spacing:2px;font-size:.92rem;margin-bottom:.7rem}
+  .review p{font-size:1.02rem;margin-bottom:1rem;color:#3a3128}
+  .review .who{display:flex;align-items:center;gap:.65rem}
+  .review .av{width:40px;height:40px;border-radius:50%;background:var(--brick-tint);color:var(--brick);
+    font-family:"Crete Round",serif;font-size:1.1rem;display:grid;place-items:center;flex:0 0 auto}
+  .review .who .nm{font-weight:700;font-size:.95rem}
+  .review .who .src{font-size:.78rem;color:var(--muted)}
+
+  /* cta band */
+  .callout{background:linear-gradient(150deg,var(--brick) 0%,var(--brick-d) 92%);color:#fff;border-radius:20px;
+    padding-top:44px;padding-bottom:44px;padding-left:42px;padding-right:42px;
+    display:grid;grid-template-columns:1.5fr auto;gap:30px;align-items:center;overflow:hidden;position:relative}
+  .callout::after{content:"";position:absolute;right:-46px;top:-46px;width:220px;height:220px;border-radius:50%;
+    border:26px solid rgba(255,255,255,.12)}
+  .callout h2{font-size:clamp(1.7rem,4vw,2.4rem);position:relative;z-index:1;color:#fff}
+  .callout p{color:#f6dcd6;margin:.7rem 0 0;position:relative;z-index:1;max-width:48ch}
+  .callout .act{position:relative;z-index:1;display:flex;flex-direction:column;gap:.7rem}
+
+  /* visit */
+  .visit{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+  .infolist{list-style:none;padding:0;margin:1.4rem 0 0}
+  .infolist li{display:flex;gap:.9rem;padding-top:14px;padding-bottom:14px;border-bottom:1px solid var(--line);align-items:flex-start}
+  .infolist li:last-child{border-bottom:0}
+  .infolist .ic{flex:0 0 auto;width:42px;height:42px;border-radius:11px;background:var(--brick-tint);color:var(--brick);display:grid;place-items:center}
+  .infolist .ic svg{width:20px;height:20px}
+  .infolist .lbl{font-family:"Karla",sans-serif;font-weight:700;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  .infolist .val{font-size:1.05rem;font-weight:500}
+  .infolist a.val{color:var(--brick);text-decoration:none;font-weight:700}
+  .infolist a.val:hover{text-decoration:underline}
+  .hours-grid{margin-top:.4rem;font-size:1rem}
+  .hours-grid .row{display:flex;justify-content:space-between;gap:1rem;padding-top:.15rem;padding-bottom:.15rem;max-width:22rem}
+  .hours-grid .row .d{color:var(--ink);font-weight:600}
+  .hours-grid .row .t{color:var(--muted)}
+  .hours-grid .row.closed .t{color:var(--brick);font-weight:700}
+  .visit .mapcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding-top:26px;padding-bottom:26px;padding-left:26px;padding-right:26px}
+  .visit .mapcard h3{font-size:1.4rem;margin-bottom:.4rem}
+  .visit .mapcard p{color:var(--muted);font-size:.98rem}
+  .visit .mapcta{display:flex;flex-direction:column;gap:.7rem;margin-top:1.3rem}
+
+  /* footer */
+  footer.site{background:var(--denim-dd);color:#c8d5dd;padding-top:52px;padding-bottom:38px}
+  footer.site .ftop{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:32px;margin-bottom:34px}
+  footer.site .fbrand .name{font-family:"Crete Round",serif;font-size:1.45rem;color:#fff;margin-bottom:.5rem}
+  footer.site p{color:#a7bac4;font-size:.94rem}
+  footer.site h4{font-family:"Karla",sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.11em;text-transform:uppercase;color:#88a2b0;margin-bottom:.9rem}
+  footer.site ul{list-style:none;padding:0;margin:0}
+  footer.site li{margin-bottom:.5rem}
+  footer.site a{color:#c8d5dd;text-decoration:none;font-size:.95rem}
+  footer.site a:hover{color:var(--gold)}
+  footer.site .fbot{border-top:1px solid var(--denim-line);padding-top:22px;display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;justify-content:space-between;align-items:center;font-size:.82rem;color:#88a2b0}
+  footer.site .fbot a{color:var(--gold);text-decoration:none}
+
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:920px){
+    .split,.split.rev{grid-template-columns:1fr;gap:28px}
+    .split.rev .media{order:0}
+    .split .media{min-height:270px}
+    .band .grid{grid-template-columns:1fr;gap:22px}
+    .reviews{grid-template-columns:1fr;gap:16px}
+    .visit{grid-template-columns:1fr;gap:30px}
+    footer.site .ftop{grid-template-columns:1fr 1fr;gap:26px}
+    footer.site .fbrand{grid-column:1 / -1}
+  }
+  @media (max-width:760px){
+    .cards{grid-template-columns:1fr 1fr}
+    .facts{grid-template-columns:1fr 1fr;margin-top:24px}
+    .callout{grid-template-columns:1fr;padding-left:28px;padding-right:28px}
+    .hrating{display:none}
+  }
+  @media (max-width:560px){
+    body{font-size:16px}
+    .hrow{gap:.6rem}
+    .brand .name{white-space:normal;font-size:1rem;line-height:1.15;max-width:12em}
+    .brand .sub{display:none}
+    .brand .mark{width:40px;height:40px}
+    .hcall .btn{padding:.7rem 1rem;font-size:.92rem}
+    .hero .inner{padding-top:44px;padding-bottom:56px}
+    .cards{grid-template-columns:1fr}
+    section{padding-top:52px;padding-bottom:52px}
+    .callout::after{display:none}
+    .rev-score .big{font-size:2.4rem}
+  }
+  @media (max-width:380px){
+    .facts{grid-template-columns:1fr 1fr}
+    .btn{font-size:.94rem}
+    .hcall .btn span.lbl{display:none}
+    .hcall .btn{padding:.7rem .85rem}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <div class="wrap hrow">
+    <a class="brand" href="#top" aria-label="Hometown Tire and Auto Repair home">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="bt">
+        <span class="name">Hometown Tire &amp; Auto Repair</span>
+        <span class="sub">Downtown Plant City, FL</span>
+      </span>
+    </a>
+    <span class="hspacer"></span>
+    <span class="hrating" aria-hidden="true">
+      <span style="color:var(--gold);letter-spacing:1px">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span><b>4.5</b> &middot; 140 reviews</span>
+    </span>
+    <span class="hcall">
+      <a class="btn btn-primary" href="tel:+18136528093">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span class="lbl">Call</span>
+      </a>
+    </span>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" style="padding:0">
+  <div class="bg" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1684864115730-96da635ba86e?w=1600&q=68&auto=format&fit=crop" alt="">
+  </div>
+  <div class="wrap inner">
+    <span class="hbadge"><span class="pin"></span> 203 E Baker St &middot; Downtown Plant City</span>
+    <h1>Your <span class="hl">hometown</span> shop for tires &amp; honest repair.</h1>
+    <p class="lead">Tires, rotations, oil changes and real auto repair &mdash; done quick, priced fair, and explained straight. The kind of neighborhood shop that fixes what needs fixing and nothing you don't.</p>
+    <div class="cta">
+      <a class="btn btn-cream" href="tel:+18136528093">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call (813) 652-8093
+      </a>
+      <a class="btn btn-ghost-light" href="#services">See what we do</a>
+    </div>
+    <div class="ratingline">
+      <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+      <span><b>4.5</b> on Google &middot; <b>140</b> reviews</span>
+      <span aria-hidden="true">&middot;</span>
+      <span>Mon&ndash;Fri, 8 AM &ndash; 5 PM</span>
+    </div>
+  </div>
+</section>
+
+<!-- facts -->
+<div class="wrap">
+  <div class="facts reveal">
+    <div class="f"><div class="n">4.5&#9733;</div><div class="l">140 Google reviews</div></div>
+    <div class="f"><div class="n">Mon&ndash;Fri</div><div class="l">8 AM &ndash; 5 PM</div></div>
+    <div class="f"><div class="n">Tires + Repair</div><div class="l">One shop, both jobs</div></div>
+    <div class="f"><div class="n">Downtown</div><div class="l">203 E Baker St</div></div>
+  </div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">What we do</span>
+      <h2>Tires and auto repair, under one roof.</h2>
+      <p>Come in for a set of tires, stay for an honest look at whatever else your car needs. We keep it simple: tell you what's actually wrong, quote it fair, and get you back on the road.</p>
+    </div>
+    <div class="cards">
+
+      <article class="card feature reveal">
+        <span class="tag">What we're known for</span>
+        <div class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg>
+        </div>
+        <h3>Tires &amp; Wheels</h3>
+        <p>New tires for every make and budget, mounted and ready to roll. Tell us your size and how you drive &mdash; we'll steer you to the right set without the upsell.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M21 3v6h-6"/><circle cx="12" cy="12" r="2.5"/></svg>
+        </div>
+        <h3>Rotations &amp; Balancing</h3>
+        <p>Keep your tread even and your ride smooth. Regular rotations and balancing help your tires last longer and stop that highway-speed shimmy.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h7l3 3v6a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z"/><path d="M17 11h2.5a1.5 1.5 0 0 1 1.5 1.5V15"/><path d="M10 4h2v3h-2z"/></svg>
+        </div>
+        <h3>Oil Changes</h3>
+        <p>Quick, clean oil changes that keep your engine happy. In and out without the wait, and we'll flag anything that looks like it needs attention while we're under there.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5 5L4 17l3 3 5.7-5.7a4 4 0 0 0 5-5z"/><path d="m14 8 2 2"/></svg>
+        </div>
+        <h3>General Repair</h3>
+        <p>Brakes, belts, batteries, and the noises you can't quite place &mdash; bring it by and we'll figure it out. Straight diagnosis, honest fix, no guessing games.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6z"/><path d="m9 12 2 2 4-4"/></svg>
+        </div>
+        <h3>Honest Answers</h3>
+        <p>The thing our neighbors mention most: we don't sell you things you don't need. If it can wait, we'll tell you. If it can't, we'll show you why.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="ic" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg>
+        </div>
+        <h3>Quick Turnaround</h3>
+        <p>We know you've got places to be. Most tire work and routine service is done fast &mdash; get a straight timeline when you drop off, not a runaround.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIRES SPOTLIGHT ============ -->
+<section id="tires" style="background:var(--cream-2)">
+  <div class="wrap">
+    <div class="split">
+      <div class="media reveal">
+        <img src="https://images.unsplash.com/photo-1694787683490-0b9dff60d8ab?w=900&q=70&auto=format&fit=crop" alt="Close-up of a fresh tire with deep tread mounted on an alloy wheel" loading="lazy">
+        <div class="stamp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg> Tires mounted &amp; balanced</div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Tires &amp; wheels</span>
+        <h2>The right set for your car, the right price.</h2>
+        <p style="color:var(--muted)">Whether you need one tire or a full set, we'll match you to tires that fit how you actually drive &mdash; then mount, balance, and rotate them so they wear evenly and last. No pressure, no padding the bill.</p>
+        <ul class="checklist">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>New tires for cars, trucks and SUVs</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Mounting, balancing and rotations</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Straight advice on what your car really needs</span></li>
+        </ul>
+        <a class="btn btn-primary" href="tel:+18136528093">Call about tires</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REPAIR SPOTLIGHT ============ -->
+<section id="repair">
+  <div class="wrap">
+    <div class="split rev">
+      <div class="media reveal">
+        <img src="https://images.unsplash.com/photo-1726867544292-fefe36817fff?w=900&q=70&auto=format&fit=crop" alt="Clean engine bay of a well-kept car with a chrome air filter, ready for service" loading="lazy">
+        <div class="stamp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5 5L4 17l3 3 5.7-5.7a4 4 0 0 0 5-5z"/></svg> Diagnosed &amp; done right</div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">General repair &amp; service</span>
+        <h2>More than tires &mdash; the whole car.</h2>
+        <p style="color:var(--muted)">Oil changes, brakes, batteries, belts and the mystery rattles &mdash; we handle the everyday repairs that keep your car dependable. You get a real diagnosis and an honest recommendation, then the work done right the first time.</p>
+        <ul class="checklist">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Oil changes and routine maintenance</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Brakes, batteries, belts and general repair</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Only the work your car actually needs</span></li>
+        </ul>
+        <a class="btn btn-denim" href="tel:+18136528093">Talk to us about a repair</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST BAND ============ -->
+<section class="band">
+  <div class="wrap">
+    <div class="sec-head reveal" style="max-width:none;margin-bottom:2.6rem;text-align:center">
+      <span class="eyebrow on-dark" style="display:inline-flex">Why neighbors keep coming back</span>
+      <h2 style="color:#fff;font-size:clamp(1.8rem,4.4vw,2.6rem)">Treated fair, told straight.</h2>
+    </div>
+    <div class="grid reveal">
+      <div class="item">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>No unnecessary work</h3>
+        <p>Our reviews say it best &mdash; we don't try to sell you a bunch of things that don't need done. If it's fine, we tell you it's fine.</p>
+      </div>
+      <div class="item">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>In and out quickly</h3>
+        <p>Customers mention it again and again: service done super quickly, at a great price. We respect your time as much as your wallet.</p>
+      </div>
+      <div class="item">
+        <div class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+        <h3>Worth the drive</h3>
+        <p>Folks come from as far as Winter Haven on a friend's recommendation &mdash; and leave with a car that feels brand new.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">What Plant City says</span>
+      <h2>4.5 stars from 140 neighbors.</h2>
+    </div>
+    <div class="rev-top reveal">
+      <div class="rev-score">
+        <span class="big">4.5</span>
+        <span>
+          <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span><br>
+          <span class="meta">140 Google reviews</span>
+        </span>
+      </div>
+    </div>
+    <div class="reviews">
+
+      <article class="review reveal">
+        <div class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&ldquo;They got me in in a timely manner, didn't try to sell me a bunch of things that didn't need done, got my service done super quickly, and above all else the price was great!&rdquo;</p>
+        <div class="who"><span class="av" aria-hidden="true">K</span><span><span class="nm">Khyla Jo</span><br><span class="src">Google review</span></span></div>
+      </article>
+
+      <article class="review reveal">
+        <div class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&ldquo;This place was recommended to me by a friend and I made the trip from Winter Haven &mdash; it was worth the drive. The truck came back feeling brand new.&rdquo;</p>
+        <div class="who"><span class="av" aria-hidden="true">B</span><span><span class="nm">Brandon C.</span><br><span class="src">Google review</span></span></div>
+      </article>
+
+      <article class="review reveal">
+        <div class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&ldquo;Their customer service is absolutely top-notch. They are friendly, honest, and truly go above and beyond.&rdquo;</p>
+        <div class="who"><span class="av" aria-hidden="true">A</span><span><span class="nm">Amanda Crisp</span><br><span class="src">Google review</span></span></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CALLOUT BAND ============ -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="callout reveal">
+      <div>
+        <span class="eyebrow on-dark" style="display:inline-flex">Give us a call</span>
+        <h2>Need tires or a repair? Let's talk.</h2>
+        <p>Pick up the phone and tell us what's going on with your car &mdash; we'll let you know what it needs and when we can get you in. No forms, no runaround.</p>
+      </div>
+      <div class="act">
+        <a class="btn btn-cream" href="tel:+18136528093">Call (813) 652-8093</a>
+        <a class="btn btn-ghost-light" href="#visit">Find the shop</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section id="visit" style="background:var(--cream-2)">
+  <div class="wrap">
+    <div class="visit">
+      <div class="reveal">
+        <span class="eyebrow">Come by</span>
+        <h2 style="font-size:clamp(1.8rem,4.4vw,2.6rem)">Right in downtown Plant City.</h2>
+        <p style="color:var(--muted)">You'll find us on East Baker Street. Give us a call before you head over and we'll let you know the best time to swing by.</p>
+        <ul class="infolist">
+          <li>
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <span><span class="lbl">Address</span><br><span class="val">203 E Baker St, Plant City, FL 33563</span></span>
+          </li>
+          <li>
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <span><span class="lbl">Phone</span><br><a class="val" href="tel:+18136528093">(813) 652-8093</a></span>
+          </li>
+          <li>
+            <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <span>
+              <span class="lbl">Hours</span>
+              <div class="hours-grid">
+                <div class="row"><span class="d">Mon &ndash; Fri</span><span class="t">8 AM &ndash; 5 PM</span></div>
+                <div class="row closed"><span class="d">Sat &ndash; Sun</span><span class="t">Closed</span></div>
+              </div>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="mapcard reveal">
+        <h3>Stop in this week</h3>
+        <p>We're open Monday through Friday, 8 to 5. Call ahead for tires or a repair and we'll have a plan ready when you arrive.</p>
+        <div class="mapcta">
+          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Hometown%20Tire%20%26%20Auto%20Repair%20203%20E%20Baker%20St%20Plant%20City%20FL%2033563" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Get directions
+          </a>
+          <a class="btn btn-denim" href="tel:+18136528093">Call (813) 652-8093</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site">
+  <div class="wrap">
+    <div class="ftop">
+      <div class="fbrand">
+        <div class="name">Hometown Tire &amp; Auto Repair</div>
+        <p>Tires &amp; wheels, rotations &amp; balancing, oil changes and honest general repair in downtown Plant City, FL. Straight answers, quick turnaround, and a fair price.</p>
+        <p style="margin-top:.8rem">
+          <span style="color:var(--gold)" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          <span style="color:#c8d5dd">&nbsp;4.5 &middot; 140 Google reviews</span>
+        </p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#tires">Tires &amp; wheels</a></li>
+          <li><a href="#services">Rotations &amp; balancing</a></li>
+          <li><a href="#services">Oil changes</a></li>
+          <li><a href="#repair">General repair</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>203 E Baker St</li>
+          <li>Plant City, FL 33563</li>
+          <li><a href="tel:+18136528093">(813) 652-8093</a></li>
+          <li>Mon&ndash;Fri &middot; 8 AM &ndash; 5 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>&copy; 2026 Hometown Tire &amp; Auto Repair &middot; Plant City, FL</span>
+      <span>Website by <a href="https://wilsoninnovations.net" target="_blank" rel="noopener">Wilson Innovations</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var els = document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      els.forEach(function(el){el.classList.add('in');});
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}
+      });
+    },{threshold:0.14,rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(el){io.observe(el);});
+  })();
+</script>
+
+</body>
+</html>
